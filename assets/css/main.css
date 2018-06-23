@@ -1,0 +1,86 @@
+.header-image-text{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.header-image-text .inner{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-image-text .inner > div{
+  margin-top: 40px;
+}
+
+.header-image-text .maintitle{
+  color: #fff;
+  font-size: 26px;
+  line-height: 30px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+}
+
+.header-image-text .subtitle {
+  color: #fff;
+}
+
+/* Menu search form */
+
+.top-search-menu .search-form {
+  margin-top: -12px;
+}
+
+.top-search-menu .search-submit{
+  display: none;
+}
+
+.top-search-menu label{
+  position: relative;
+}
+
+.top-search-menu label:before{
+  font-family: FontAwesome;
+  content: '\f002';
+  display: inline-block;
+  display: block;
+  width: 26px;
+  height: 40px;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  padding: 0 5px;
+}
+
+.top-search-menu .search-field{
+  height: 40px;
+  padding: 3px 5px 3px 27px;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.top-search-menu label:before{
+ color: #fff;
+}
+
+.top-search-menu.input-expanded label:before{
+ color: #333;
+}
+
+.top-search-menu input{
+  opacity: 0;
+  width: 0;
+}
+
+.top-search-menu.input-expanded input{
+  opacity: 1;
+  width: 140px;
+}
